@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - M Srikar Rao</title>
+</head>
+<body>
+    <h1>Form to apply Sigma Web Development course</h1>
+    <form action="post">
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+            <br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <br>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" name="subscribe" id="subscribe" value="yes" required>
+            <label for="subscribe">Subscribe to Prime Video</label>
+        </div>
+        <div>
+            <label for="comment">Comment:</label>
+            <br>
+            <textarea name="comment" id="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+        </div>
+        <div>
+            <select name="fruits" required>
+                <option value="select">Select</option>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="grapes">Grapes</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
